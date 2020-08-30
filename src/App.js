@@ -5,14 +5,16 @@ import Box from "@material-ui/core/Box";
 
 function App() {
   return (
-    <Box display="flex" flexWrap="wrap" flexDirection="column" justifyContent="center" alignItems="flex-start" alignContent="flex-start" m={1} p={1}>
-      <Box p={1} width="100%">
-        IPEACH NEWS
+    <div style={{ width: '100%' }}>
+    <Box display="flex" flexWrap="wrap" flexDirection="column" justifyContent="center" m={1} p={1}>
+      <Box p={1} textAlign="center" letterSpacing={11} fontSize={24} fontWeight={700}>
+        iPEACH NEWS
       </Box>
       <Box p={1}>
       <Feed />
       </Box>
     </Box>
+    </div>
   );
 }
 
